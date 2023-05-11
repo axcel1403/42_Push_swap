@@ -1,3 +1,5 @@
 # 42_Push_swap
 
-This project is about sorting numbers from smallest to highest using a sorting algorithm with limited options such as push, rotate, reverse-rotate and swap which also needs to meet certain conditions.
+**Description**
+
+This project involves sorting data on a stack, with a limited set of instructions, and the smallest number of moves. To make this happen, you will have to manipulate various sorting algorithms and choose the most appropriate solution(s) for optimized data sorting.
