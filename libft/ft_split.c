@@ -6,7 +6,7 @@
 /*   By: jmiranda <jmiranda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/30 22:29:45 by jmiranda          #+#    #+#             */
-/*   Updated: 2023/04/01 19:46:33 by jmiranda         ###   ########.fr       */
+/*   Updated: 2023/07/18 12:20:37 by jmiranda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -79,9 +79,7 @@ char	**ft_split(char	const *s, char c)
 {
 	char	**tab;
 	int		n_words;
-	int		free;
 
-	free = 0;
 	if (!s)
 		return (NULL);
 	n_words = ft_n_words(s, c);
