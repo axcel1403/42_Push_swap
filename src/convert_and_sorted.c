@@ -6,7 +6,7 @@
 /*   By: jmiranda <jmiranda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/15 22:46:45 by jmiranda          #+#    #+#             */
-/*   Updated: 2023/04/15 23:20:12 by jmiranda         ###   ########.fr       */
+/*   Updated: 2023/07/18 12:14:15 by jmiranda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,12 +15,10 @@
 void	index_to_list(t_utils *utils, t_list *stack_a)
 {
 	t_list	*tmp;
-	t_list	*test;
 	int		i;
 
 	i = 0;
 	tmp = stack_a;
-	test = stack_a;
 	while (i < utils->s_size)
 	{
 		tmp->index = utils->arr_index[i];
