@@ -6,7 +6,7 @@
 /*   By: jmiranda <jmiranda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/06 23:06:29 by jmiranda          #+#    #+#             */
-/*   Updated: 2023/05/01 21:58:32 by jmiranda         ###   ########.fr       */
+/*   Updated: 2023/07/18 12:12:39 by jmiranda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -76,7 +76,7 @@ int	is_number(char **argv)
 					return (0);
 			}
 			else if (ft_isdigit(argv[i][j]) || (argv[i][j] == ' '))
-					j++;
+				j++;
 			else
 				return (0);
 		}

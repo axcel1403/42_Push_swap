@@ -6,7 +6,7 @@
 /*   By: jmiranda <jmiranda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/06 21:23:43 by jmiranda          #+#    #+#             */
-/*   Updated: 2023/02/15 22:41:27 by jmiranda         ###   ########.fr       */
+/*   Updated: 2023/07/18 12:12:07 by jmiranda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 char	*ft_strchr_gnl(const char *str, int c, int *nl, int *end)
 {
 	while (*(str + *nl) != '\0' && *nl != *end)
-	{	
+	{
 		if (*(str + *nl) == (char)c)
 			return ((char *)str);
 		(*nl)++;
